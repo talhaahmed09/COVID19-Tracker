@@ -1,0 +1,26 @@
+.body {
+    background-color: aliceblue;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(135deg, rgb(69, 69, 105) 40%, rgb(132, 217, 235) 100%);
+}
+
+.image {
+    width: 370px;
+    margin-top:  50px;
+}
+
+@media (max-width: 770px) {
+    .container {
+        margin: 0 10%;
+    }
+
+    .image{
+        width: 100%;
+    }
+}
